@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+langchain
+langgraph
+langchain-google-genai
+qdrant-client
+sentence-transformers
+asyncpg
+sqlalchemy[asyncio]
+alembic
+yfinance
+httpx
+tenacity
