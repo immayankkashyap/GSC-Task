@@ -3,3 +3,4 @@ roadmap.pdf
 venv
 .venv
 .env
+*.sh
