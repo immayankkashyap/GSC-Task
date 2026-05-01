@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     QDRANT_API_KEY: str | None = None
     DATABASE_URL: str = "postgresql+asyncpg://USER:PASSWORD@YOUR_DB_HOST:5432/finance_db?sslmode=require"
     TRACER_BASE_URL: str = "https://www.oneoxyzen.com/api/tracers"
-    TRACER_API_KEY: str = "fintech_191038f37768b7e18382ac612795dad374ef28d663416c77007c43ccd234d5a0"
+    TRACER_API_KEY: str = "fintech_191b6cbf190501150020a28fa04f94e3522668bce15c1dcdc330e955ef73c642"
 
     model_config = {
         "env_file": str(_ROOT / ".env"),
